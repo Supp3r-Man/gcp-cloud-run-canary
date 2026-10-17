@@ -1,6 +1,6 @@
 # gcp-cloud-run-canary
 
-![ci](https://github.com/Sup3rMar10/gcp-cloud-run-canary/actions/workflows/ci.yml/badge.svg)
+![ci](https://github.com/Supp3r-Man/gcp-cloud-run-canary/actions/workflows/ci.yml/badge.svg)
 
 A **gradual rollout controller for Cloud Run** that decides from evidence and always has a way back: deploy the new revision with **no traffic**, smoke-test its **tagged URL**, shift **10% then 50% then 100%**, judge each step against an error-rate SLO, and **roll back automatically**. Plus a small service that honours the Cloud Run container contract, checked on the real image in CI.
 
